@@ -1,0 +1,51 @@
+#contact {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-text {
+    max-width: 600px;
+    flex: 1;
+}
+
+.contact-image img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contact ul.social-icons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+#contact ul.social-icons li {
+    display: inline-block;
+}
+
+#contact ul.social-icons li a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+#contact ul.social-icons li a:hover {
+    color: #007bff; /* Change this to your preferred color */
+    transform: scale(1.2);
+}

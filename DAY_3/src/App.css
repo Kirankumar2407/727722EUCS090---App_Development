@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f8f8;
+}
+
+header {
+  background: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px;
+  background-color: #e7f3fe;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  color: #007BFF;
+  text-decoration: none;
+  border: 1px solid #007BFF;
+  border-radius: 5px;
+}
+
+.cta-button:hover {
+  background-color: #007BFF;
+  color: white;
+}
+
+#features {
+  padding: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #007BFF;
+  color: white;
+}
+
+.auth-page {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.auth-page form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-page label {
+  margin: 10px 0 5px;
+}
+
+.auth-page input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.auth-page button {
+  padding: 10px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 5px;
+}
